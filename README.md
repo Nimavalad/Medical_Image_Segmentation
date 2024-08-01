@@ -43,3 +43,40 @@ Validation data:
 Test data:
 (20, 256, 256, 3)
 (20, 256, 256)
+
+Display data related to each category:
+Images of breast cancer in the benign category with the corresponding mask:
+https://drive.google.com/file/d/1tbk2piAv-L9ramBTh4ytdVWKVCFv43VJ/view?usp=drivesdk
+ 
+Images of breast cancer in the malignant category with the corresponding mask:
+https://drive.google.com/file/d/1gruixwi_s0rB7NKrZHJHUuGcmzVDNMLq/view?usp=drivesdk
+ 
+Images of breast cancer in the healthy group with the corresponding mask:
+https://drive.google.com/file/d/1HI1t7ldAj_gebnIRU8XaA0OoIxhZMiTN/view?usp=drivesdk
+
+2) Model:
+In recent years, deep learning has made great progress in medical image segmentation. In this regard, U-Net has been the most popular architecture in medical image segmentation. The U-Net network has shown outstanding overall performance in medical image segmentation through extensive testing on challenging datasets. Improved U-Net networks in special applications, in addition to the advantages of the U-Net network, benefit from the improved advantages created in the network according to the specific application. Therefore, some modifications have been proposed to improve the U-Net model in various articles.
+https://drive.google.com/file/d/1iEx3X-28sq1_UbScaL3mUNJcOg5itpT6/view?usp=drivesdk
+
+Evaluation of model performance after 100 Epoch:
+https://drive.google.com/file/d/1ruie3PROlaMxbYYiglKc5tYBTBe8HdGY/view?usp=drivesdk
+
+Accuracy diagram of the model:
+https://drive.google.com/file/d/1mvQRcZn_AVrk7hpfJaXQmiU1J7xdDb1F/view?usp=drivesdk
+
+Loss function diagram:
+https://drive.google.com/file/d/18eaBY9ue29VwIHSZTkx1GkRrEXqEAEmd/view?usp=drivesdk
+
+Model evaluation on test data:
+The evaluation of the accuracy of the test data is as follows:
+Loss: 0.2826
+Dice_coef: 0.7174
+Recall: 0.7536
+Precision: 0.6847
+Accuracy: 0.9662
+F1_score: 0.7175
+ 
+Also, some examples of test data along with the original mask and the predicted mask are shown in the figure below:
+https://drive.google.com/file/d/1lD3WWHD-yrj3_FCsgj0mpYr0wEhS-j9T/view?usp=drivesdk
+
+https://drive.google.com/file/d/1uOTpwYXvm5B2th0XFHK2ZsydHpZmLipo/view?usp=drivesdk
